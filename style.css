@@ -2,6 +2,7 @@ body {
   margin: 0px;
   padding: 0px;
 	background-color: white;
+  font-family: sans-serif;
 }
 
 div.header .logo-div {
@@ -68,9 +69,8 @@ div #hamburger-line {
   display:inline-block;
   float: left;
   color: white;
-  width: 15%;
+  width: 18%;
   margin-left: .8%;
-
   letter-spacing: 1px;
 }
 
@@ -79,7 +79,7 @@ div #hamburger-line {
 }
 
 #search-bar {
-  width:230px;
+  width:235px;
   height:45px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -88,7 +88,7 @@ div #hamburger-line {
 }
 
 #menu-button {
-  width: 235px;
+  width: 239px;
   height: 50px;
   margin-bottom: 20px;
   border:1px solid #EEEEEE;
@@ -102,10 +102,9 @@ div #hamburger-line {
 }
 
 .drivers-outer {
-  margin-top: 50px;
-  margin-bottom: 20px;
+  margin-top: 47px;
   border:1px solid #EEEEEE;
-  width: 235px;
+  width: 239px;
   height: 100px;
   background-color: #EEEEEE;
   border-radius: 3px;
@@ -119,7 +118,8 @@ div #hamburger-line {
   margin-right: 2.5%;
   width: auto;
   height: 50px;
-
+  color: black;
+  font-size: x-small;
 }
 
 #drivers-title {
@@ -128,8 +128,85 @@ div #hamburger-line {
   font-size: 13px;
 }
 
+#icon-div {
+  margin-top: 13px;
+  padding-right: 0px;
+  font-size: 10px;
+  float: left;
+  display: inline;
+  width: 20px;
+}
+
+#font {
+  position: relative;
+  margin-left: 0px;
+}
+
+div #no-of-jobs-div {
+}
+
+div #no-of-jobs-div {
+  width: 100px;
+  color: red;
+  font-weight: bold;
+  letter-spacing: normal;
+  padding-left: 30px;
+  padding-top: 10px;
+  font-size: small;
+  text-align: left;
+  position: fixed;
+  background-size: contain;
+}
+
+p#sub-font {
+  font-size: x-small;
+  font-weight: lighter;
+  color: grey;
+  margin-top: 2px;
+}
+
+div #availability-div {
+  width: 140px;
+  color: black;
+  font-weight: bold;
+  padding-left: 83px;
+  padding-top: 10px;
+  font-size: small;
+  text-align: right;
+  position: fixed;
+  background-size: contain;
+  letter-spacing: normal;
+}
+
+.jobs-outer {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  border:1px solid #EEEEEE;
+  width: 239px;
+  height: 150px;
+  background-color: #EEEEEE;
+  border-radius: 3px;
+}
+
+#jobs-inner {
+  border: 1px solid white;
+  border-radius: 3px;
+  background-color: white;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  width: auto;
+  height: 100px;
+
+}
+
+#jobs-title {
+  text-align: center;
+  color: #F25A4A;
+  font-size: 13px;
+}
+
 #google-map {
-  width:82%;
+  width:81%;
   height: 1000px;
 }
 
