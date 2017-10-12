@@ -1,0 +1,151 @@
+body {
+  margin: 0px;
+  padding: 0px;
+	background-color: white;
+}
+
+div.header .logo-div {
+  background-color: #F25A4A;
+  width: 100%;
+  height:40px;
+  margin-top: 8px;
+  position: sticky;
+}
+
+ul.nav-links {
+  margin-top: 8px;
+  padding-right: 15px;
+  margin: 0px;
+  top: 0px;
+  width: 100%;
+  height: 40px;
+  text-align: right;
+  position: fixed;
+  /*background-color: black;*/
+}
+
+.nav li {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 80%;
+  color: white;
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.nav li.hamburger-menu {
+  padding-top: 20px;
+  padding-bottom: 0px;
+  padding-right: 50px;
+}
+
+div #hamburger-line {
+  width: 30px;
+  height: 2px;
+  background-color: white;
+  margin: 5px 0;
+}
+
+#company-name {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  text-align: left;
+  width: 80px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+}
+
+.map-div {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+
+.side-container {
+  display:inline-block;
+  float: left;
+  color: white;
+  width: 15%;
+  margin-left: .8%;
+
+  letter-spacing: 1px;
+}
+
+#search-bar #menu-button {
+  border-radius: 20px;
+}
+
+#search-bar {
+  width:230px;
+  height:45px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+
+}
+
+#menu-button {
+  width: 235px;
+  height: 50px;
+  margin-bottom: 20px;
+  border:1px solid #EEEEEE;
+  background-color: #EEEEEE;
+  border-radius: 5px;
+
+}
+
+#menu-name {
+  color: #F25A4A;
+}
+
+.drivers-outer {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  border:1px solid #EEEEEE;
+  width: 235px;
+  height: 100px;
+  background-color: #EEEEEE;
+  border-radius: 3px;
+}
+
+#drivers-inner {
+  border: 1px solid white;
+  border-radius: 3px;
+  background-color: white;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  width: auto;
+  height: 50px;
+
+}
+
+#drivers-title {
+  text-align: center;
+  color: #F25A4A;
+  font-size: 13px;
+}
+
+#google-map {
+  width:82%;
+  height: 1000px;
+}
+
+@media screen and (max-width: 800px) {
+  .nav li {
+    /*text-shadow: 3px 3px turquoise;*/
+    font-size: 70%;
+  }
+  title {
+    font-size: 80px;
+  }
+
+  #google-map {
+    width:100%;
+    height: 1000px;
+  }
+
+
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>GetSwift</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="logo-div">
+        <p id="company-name">getswift</p>
+      </div>
+      <div class="nav">
+        <ul class="nav-links">
+          <li>+ADD</li>
+          <li>MAP</li>
+          <li>REPORTS</li>
+          <li class="hamburger-menu">
+              <div id="hamburger-line"></div>
+              <div id="hamburger-line"></div>
+              <div id="hamburger-line"></div>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+
+
+    <div class="side-container" style="float: left;">
+      <input id="search-bar" type="text" placeholder="search" />
+      <button style="float: left;" id="menu-button">
+        <p id="menu-name">MENU</p>
+      </button>
+      <br/><br/>
+      <div class="drivers-outer">
+        <p id="drivers-title">ALL DRIVERS (1)</p>
+          <div id="drivers-inner" style="float: bottom">
+            
+          </div>
+      </div>
+    </div>
+
+
+
+    <div class="map-div">
+      <div id="google-map" style="float: right;"></div>
+    </div>
+
+
+
+
+  <script>
+    function myMap(){
+      defaultPin = new google.maps.LatLng(40.7134, -74.0055);
+      var mapOptions = {
+      center: defaultPin,
+      zoom: 13, scrollwheel: false, draggable: true,
+      mapTypeId:google.maps.MapTypeId.ROADMAP
+    };
+
+    var map = new google.maps.Map(document.getElementById("google-map"),mapOptions);
+
+    var marker = new google.maps.Marker({
+      position: defaultPin,
+    });
+
+    marker.setMap(map);
+    }
+  </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD0CJd7a2QNgsKwQKqcqr1Nf3QEglsUGZg&callback=myMap"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  </body>
+</html>
